@@ -5,7 +5,7 @@
 int main(){
     char name[20][50], temp[50];
     printf("Enter the name of 20 students: ");
-    for(int i=0; i<3; i++){
+    for(int i=0; i<20; i++){
         scanf("%s", name[i]);
     }
     for (int i=0; i<20; i++){
