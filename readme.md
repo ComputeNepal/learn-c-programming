@@ -2,7 +2,9 @@
 
 This repo is a collection of multiple C programming problems and their solutions. Before referring to this repository, it is recommended to know about the basics of programming like what are variables, loops, data types, functions, etc.
 
-### Basic Questions
+Make sure to star the repository if you find it useful.
+
+## Basic Questions
 
 1. WAP to find out wether a given number is positive negative or zero.
 2. WAP that reads the principal, rate of interest and number of years and find the simple interest and amount.
@@ -13,3 +15,11 @@ This repo is a collection of multiple C programming problems and their solutions
 7. WAP to display the sum of 'n' terms of 'even' numbers.
 8. WAP to check given number is palindrome or not.
 9. WAP to find the factorial of any given number.
+
+## Array Questions
+
+1. WAP to input 10 numbers and display the largest and smallest number.
+2. WAP to read the age of 40 students and count the number of students aged between 15 and 22.
+3. WAP to input several numbers and arrange them in ascending order.
+4. WAP to input a matrix of size rXc and transpose it.
+5. WAP to input two matrices of size 2X3 and display their sum.
