@@ -25,6 +25,14 @@ Make sure to star the repository if you find it useful.
     - [1. WAP to count the number of vowels and consonants in a given text.](#1-wap-to-count-the-number-of-vowels-and-consonants-in-a-given-text)
     - [2. WAP to check if a given string is a palindrome or not.](#2-wap-to-check-if-a-given-string-is-a-palindrome-or-not)
     - [3. WAP to input the name of 20 students and arrange them in alphabetical order.](#3-wap-to-input-the-name-of-20-students-and-arrange-them-in-alphabetical-order)
+  - [User Defined Function Questions](#user-defined-function-questions)
+    - [1. WAP to input a number and calculate its reverse using function.](#1-wap-to-input-a-number-and-calculate-its-reverse-using-function)
+    - [2. WAP to find the sum of 'n' integer numbers using the function.](#2-wap-to-find-the-sum-of--n--integer-numbers-using-the-function)
+    - [3. WAP to input a number and check if it is even or odd using the function.](#3-wap-to-input-a-number-and-check-if-it-is-even-or-odd-using-the-function)
+    - [4. WAP using user-defined function to calculate y raise to power x.](#4-wap-using-user-defined-function-to-calculate-y-raise-to-power-x)
+  - [Recursion Questions](#recursion-questions)
+    - [1. WAP to calculate the factorial of a given number using function.](#1-wap-to-calculate-the-factorial-of-a-given-number-using-function)
+    - [2. WAP to calculate a term of Fibonacci series using a recursive function.](#2-wap-to-calculate-a-term-of-fibonacci-series-using-a-recursive-function)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -231,3 +239,69 @@ Then, it prompts the user to input the names of 20 students using a for loop and
 After that, it uses two nested for loops to compare each name with the other names using strcmp() function. If the first name is greater than the second name, the strcpy() function is used to swap the names.
 
 Finally, it prints the arranged names in alphabetical order using a for loop and printf() function.
+
+## User Defined Function Questions
+
+### 1. WAP to input a number and calculate its reverse using function.
+
+This program is a C code that takes an integer input from the user, and then calculates and outputs its reverse using a function.
+
+The program first declares the reverse function, which takes an integer input and returns its reverse. Within the reverse function, the program uses a while loop to extract the digits of the number in reverse order and store them in a new variable rev. The loop iterates until the original number becomes 0. Finally, the function returns the reversed number rev.
+
+In the main function, the program prompts the user to input a number and stores it in the variable a. Then, it calls the reverse function with a as the argument and outputs the returned value as the reversed number.
+
+Overall, this program demonstrates the use of a function to perform a specific task, in this case, reversing a given number.
+
+### 2. WAP to find the sum of 'n' integer numbers using the function.
+
+This program calculates the sum of 'n' integer numbers, where 'n' is the input provided by the user.
+
+The program consists of a main function and a sum function.
+
+In the main function, an integer variable 'a' is declared and initialized with the input provided by the user using scanf. Then, the sum function is called with the input value as its argument. Finally, the sum returned by the function is printed using printf.
+
+In the sum function, an integer variable 'n' is declared and initialized to zero. The function then uses a for loop to iterate from 0 to the input value 'a' provided as its argument. Inside the loop, the loop index 'i' is added to the variable 'n'. Finally, the function returns the value of 'n', which is the sum of the integers from 0 to 'a'.
+
+### 3. WAP to input a number and check if it is even or odd using the function.
+
+This program checks whether a given integer is even or odd by using a function called checker().
+
+In the main() function, the program takes an integer input from the user and passes it as an argument to the checker() function. The function then checks if the input number is even or odd by dividing it by 2 and checking if the remainder is zero. If the remainder is zero, the function returns 1 (which is treated as true in the if condition), indicating that the input number is even. If the remainder is not zero, the function returns 0 (which is treated as false in the if condition), indicating that the input number is odd.
+
+Finally, in the main() function, the program checks the return value of the checker() function using an if statement. If the return value is 1, the program prints "Even". Otherwise, it prints "Odd".
+
+### 4. WAP using user-defined function to calculate y raise to power x.
+
+This program calculates the power of a base number raised to an exponent using a user-defined function named "power".
+
+The program takes two integer inputs 'x' and 'y' as base and exponent respectively using the scanf() function. Then, it calls the function 'power(y, x)' and passes the inputs to the function.
+
+The function 'power' takes two integer arguments 'y' and 'x' and returns a long integer data type. The function calculates the power of y raised to the x exponent using the built-in pow() function from math.h library and returns the result to the main function.
+
+Finally, the program prints the result using printf() function with the format specifier %ld.
+
+## Recursion Questions
+
+### 1. WAP to calculate the factorial of a given number using function.
+
+This program calculates the factorial of a given number using a recursive function called factorial().
+
+In the main() function, the user is prompted to enter a number, which is stored in the integer variable n. The factorial() function is then called, passing n as an argument. The value returned by factorial() is printed to the console, which is the factorial of n.
+
+The factorial() function takes an integer n as input and recursively calculates its factorial. If n is not equal to 1, factorial() multiplies n by the result of calling factorial(n-1). This process continues until n is equal to 1. At that point, the function returns 1, which is the base case of the recursion.
+
+### 2. WAP to calculate a term of Fibonacci series using a recursive function.
+
+This program calculates the nth term in the Fibonacci series using a recursive function.
+
+The Fibonacci series is a sequence of numbers where each number is the sum of the two preceding ones, starting from 0 and 1. For example, the first few terms of the Fibonacci series are: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+
+The program takes an integer input 'n' from the user, which specifies which term of the Fibonacci series to calculate. It then calls the recursive function 'fibonacci' with 'n' as the argument.
+
+The 'fibonacci' function is defined as follows:
+
+- If n is 0, it returns 0 (the first term in the series)
+- If n is 1, it returns 1 (the second term in the series)
+- Otherwise, it calculates the nth term by recursively calling the 'fibonacci' function with n-1 and n-2 as arguments, and returning the sum of the two results.
+
+The program then prints out the value returned by the 'fibonacci' function, which is the nth term of the Fibonacci series.
