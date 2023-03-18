@@ -23,3 +23,9 @@ Make sure to star the repository if you find it useful.
 3. WAP to input several numbers and arrange them in ascending order.
 4. WAP to input a matrix of size rXc and transpose it.
 5. WAP to input two matrices of size 2X3 and display their sum.
+
+## String Functions
+
+1. WAP to count the number of vowels and consonants in a given text.
+2. WAP to check if a given string is a palindrome or not.
+3. WAP to input the name of 20 students and arrange them in alphabetical order.
