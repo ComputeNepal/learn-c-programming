@@ -15,6 +15,7 @@ Make sure to star the repository if you find it useful.
     - [7. WAP to display the sum of 'n' terms of 'even' numbers.](#7-wap-to-display-the-sum-of--n--terms-of--even--numbers)
     - [8. WAP to check given number is palindrome or not.](#8-wap-to-check-given-number-is-palindrome-or-not)
     - [9. WAP to find the factorial of any given number.](#9-wap-to-find-the-factorial-of-any-given-number)
+    - [10. WAP to find the the product of n natural numbers.](#10-wap-to-find-the-the-product-of-n-natural-numbers)
   - [Array Questions](#array-questions)
     - [1. WAP to input 10 numbers and display the largest and smallest number.](#1-wap-to-input-10-numbers-and-display-the-largest-and-smallest-number)
     - [2. WAP to read the age of 40 students and count the number of students aged between 15 and 22.](#2-wap-to-read-the-age-of-40-students-and-count-the-number-of-students-aged-between-15-and-22)
@@ -142,6 +143,26 @@ The program then checks if the value of n is 0 or negative. If n is 0, the facto
 If n is a positive integer, the program uses a for loop to calculate the factorial. The loop starts at 1 and iterates up to n. In each iteration, the value of i is multiplied to p. The final value of p is the factorial of n.
 
 Finally, the program prints the output, which is the value of p.
+
+### 10. WAP to find the the product of n natural numbers.
+
+This is a C program that calculates the product of the first n natural numbers. Here's how it works:
+
+1. The program starts by declaring some variables: n, i, and product.
+
+- n is the number of natural numbers to be multiplied.
+- i is a counter variable for the loop that will calculate the product.
+- product is the variable that will hold the result of the multiplication.
+
+2. The program prompts the user to enter a positive integer n using the printf and scanf functions.
+
+3. A for loop is used to calculate the product of the first n natural numbers. The loop starts with i = 1 and continues until i <= n.
+
+- Inside the loop, the product is updated by multiplying it with the current value of i.
+
+4. After the loop is complete, the program prints the result using printf.
+
+5. The main function returns 0, indicating successful execution.
 
 ## Array Questions
 

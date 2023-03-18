@@ -1,3 +1,5 @@
+//WAP to find the the product of n natural numbers
+
 #include <stdio.h>
 
 int main() {
