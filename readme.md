@@ -4,6 +4,30 @@ This repo is a collection of multiple C programming problems and their solutions
 
 Make sure to star the repository if you find it useful.
 
+- [Beginners C programming Problems](#beginners-c-programming-problems)
+  - [Basic Questions](#basic-questions)
+    - [1. WAP to find out wether a given number is positive negative or zero.](#1-wap-to-find-out-wether-a-given-number-is-positive-negative-or-zero)
+    - [2. WAP that reads the principal, rate of interest and number of years and find the simple interest and amount.](#2-wap-that-reads-the-principal--rate-of-interest-and-number-of-years-and-find-the-simple-interest-and-amount)
+    - [3. WAP to read the radius of circle and display its area.](#3-wap-to-read-the-radius-of-circle-and-display-its-area)
+    - [4. WAP that reads three numbers and displays the largest among them.](#4-wap-that-reads-three-numbers-and-displays-the-largest-among-them)
+    - [5. WAP to display the name of the day in a week, depending on the number entered through the keyboard using the switch-case statement.](#5-wap-to-display-the-name-of-the-day-in-a-week--depending-on-the-number-entered-through-the-keyboard-using-the-switch-case-statement)
+    - [6. WAP to display all the natural numbers up to 100.](#6-wap-to-display-all-the-natural-numbers-up-to-100)
+    - [7. WAP to display the sum of 'n' terms of 'even' numbers.](#7-wap-to-display-the-sum-of--n--terms-of--even--numbers)
+    - [8. WAP to check given number is palindrome or not.](#8-wap-to-check-given-number-is-palindrome-or-not)
+    - [9. WAP to find the factorial of any given number.](#9-wap-to-find-the-factorial-of-any-given-number)
+  - [Array Questions](#array-questions)
+    - [1. WAP to input 10 numbers and display the largest and smallest number.](#1-wap-to-input-10-numbers-and-display-the-largest-and-smallest-number)
+    - [2. WAP to read the age of 40 students and count the number of students aged between 15 and 22.](#2-wap-to-read-the-age-of-40-students-and-count-the-number-of-students-aged-between-15-and-22)
+    - [3. WAP to input several numbers and arrange them in ascending order.](#3-wap-to-input-several-numbers-and-arrange-them-in-ascending-order)
+    - [4. WAP to input a matrix of size rXc and transpose it.](#4-wap-to-input-a-matrix-of-size-rxc-and-transpose-it)
+    - [5. WAP to input two matrices of size 2X3 and display their sum.](#5-wap-to-input-two-matrices-of-size-2x3-and-display-their-sum)
+  - [String Functions](#string-functions)
+    - [1. WAP to count the number of vowels and consonants in a given text.](#1-wap-to-count-the-number-of-vowels-and-consonants-in-a-given-text)
+    - [2. WAP to check if a given string is a palindrome or not.](#2-wap-to-check-if-a-given-string-is-a-palindrome-or-not)
+    - [3. WAP to input the name of 20 students and arrange them in alphabetical order.](#3-wap-to-input-the-name-of-20-students-and-arrange-them-in-alphabetical-order)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## Basic Questions
 
 ### 1. WAP to find out wether a given number is positive negative or zero.
