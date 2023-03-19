@@ -37,6 +37,11 @@ Make sure to star the repository if you find it useful.
   - [Structure Questions](#structure-questions)
     - [1. WAP that reads roll_no, f_name, l_name, and prints the record on the screen.](#1-wap-that-reads-roll-no--f-name--l-name--and-prints-the-record-on-the-screen)
     - [2. WAP that takes name and marks of 10 students. Display them according to marks in descending order.](#2-wap-that-takes-name-and-marks-of-10-students-display-them-according-to-marks-in-descending-order)
+  - [Pointer Questions](#pointer-questions)
+    - [1. WAP to check even or odd numbers using pointer.](#1-wap-to-check-even-or-odd-numbers-using-pointer)
+    - [2. WAP to swap two numbers using pointer.](#2-wap-to-swap-two-numbers-using-pointer)
+  - [File Handling Questions](#file-handling-questions)
+    - [1. WAP to input name, roll no, marks of n students and store them in file/ read from file also.](#1-wap-to-input-name--roll-no--marks-of-n-students-and-store-them-in-file--read-from-file-also)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -395,3 +400,21 @@ Here's how it works:
 - The program prints the new values of a and b.
 
 The swap function works by using pointer arithmetic to access the values of the integers pointed to by ptr1 and ptr2. The values are swapped using a temporary variable to avoid losing any data during the swap. The original variables a and b are modified indirectly by the function through their pointers.
+
+## File Handling Questions
+
+### 1. WAP to input name, roll no, marks of n students and store them in file/ read from file also.
+
+This is a C program that allows the user to input the name, roll number, and marks of 10 students, and then stores the data in a file. The program also reads the data from the file and displays it on the console.
+
+The program uses a structure studentDetails to define the attributes of each student - name, roll, and marks. An array of 10 studentDetails structures is declared using the variable data.
+
+The main function prompts the user to input the data for 10 students using a for loop. The user is prompted to enter the name, roll number, and marks for each student, and the data is stored in the data array.
+
+Then the program opens a file named "student_details.txt" in append mode using the fopen function. It writes the data of 10 students to the file using another for loop and fprintf function.
+
+After writing the data to the file, the program prints the header for the data to be displayed. It then closes the file using the fclose function.
+
+The program then opens the file again, this time in read mode, and reads the data from the file using a while loop and the fscanf function. The data is then displayed on the console using printf function.
+
+Finally, the program closes the file using the fclose function and returns 0 to exit.
