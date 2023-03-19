@@ -5,41 +5,40 @@ This repo is a collection of multiple C programming problems and their solutions
 Make sure to star the repository if you find it useful.
 
 - [Beginners C programming Problems](#beginners-c-programming-problems)
-  * [Basic Questions](#basic-questions)
-    + [1. WAP to find out wether a given number is positive negative or zero.](#1-wap-to-find-out-wether-a-given-number-is-positive-negative-or-zero)
-    + [2. WAP that reads the principal, rate of interest and number of years and find the simple interest and amount.](#2-wap-that-reads-the-principal--rate-of-interest-and-number-of-years-and-find-the-simple-interest-and-amount)
-    + [3. WAP to read the radius of circle and display its area.](#3-wap-to-read-the-radius-of-circle-and-display-its-area)
-    + [4. WAP that reads three numbers and displays the largest among them.](#4-wap-that-reads-three-numbers-and-displays-the-largest-among-them)
-    + [5. WAP to display the name of the day in a week, depending on the number entered through the keyboard using the switch-case statement.](#5-wap-to-display-the-name-of-the-day-in-a-week--depending-on-the-number-entered-through-the-keyboard-using-the-switch-case-statement)
-    + [6. WAP to display all the natural numbers up to 100.](#6-wap-to-display-all-the-natural-numbers-up-to-100)
-    + [7. WAP to display the sum of 'n' terms of 'even' numbers.](#7-wap-to-display-the-sum-of--n--terms-of--even--numbers)
-    + [8. WAP to check given number is palindrome or not.](#8-wap-to-check-given-number-is-palindrome-or-not)
-    + [9. WAP to find the factorial of any given number.](#9-wap-to-find-the-factorial-of-any-given-number)
-    + [10. WAP to find the the product of n natural numbers.](#10-wap-to-find-the-the-product-of-n-natural-numbers)
-  * [Array Questions](#array-questions)
-    + [1. WAP to input 10 numbers and display the largest and smallest number.](#1-wap-to-input-10-numbers-and-display-the-largest-and-smallest-number)
-    + [2. WAP to read the age of 40 students and count the number of students aged between 15 and 22.](#2-wap-to-read-the-age-of-40-students-and-count-the-number-of-students-aged-between-15-and-22)
-    + [3. WAP to input several numbers and arrange them in ascending order.](#3-wap-to-input-several-numbers-and-arrange-them-in-ascending-order)
-    + [4. WAP to input a matrix of size rXc and transpose it.](#4-wap-to-input-a-matrix-of-size-rxc-and-transpose-it)
-    + [5. WAP to input two matrices of size 2X3 and display their sum.](#5-wap-to-input-two-matrices-of-size-2x3-and-display-their-sum)
-  * [String Functions](#string-functions)
-    + [1. WAP to count the number of vowels and consonants in a given text.](#1-wap-to-count-the-number-of-vowels-and-consonants-in-a-given-text)
-    + [2. WAP to check if a given string is a palindrome or not.](#2-wap-to-check-if-a-given-string-is-a-palindrome-or-not)
-    + [3. WAP to input the name of 20 students and arrange them in alphabetical order.](#3-wap-to-input-the-name-of-20-students-and-arrange-them-in-alphabetical-order)
-  * [User Defined Function Questions](#user-defined-function-questions)
-    + [1. WAP to input a number and calculate its reverse using function.](#1-wap-to-input-a-number-and-calculate-its-reverse-using-function)
-    + [2. WAP to find the sum of 'n' integer numbers using the function.](#2-wap-to-find-the-sum-of--n--integer-numbers-using-the-function)
-    + [3. WAP to input a number and check if it is even or odd using the function.](#3-wap-to-input-a-number-and-check-if-it-is-even-or-odd-using-the-function)
-    + [4. WAP using user-defined function to calculate y raise to power x.](#4-wap-using-user-defined-function-to-calculate-y-raise-to-power-x)
-  * [Recursion Questions](#recursion-questions)
-    + [1. WAP to calculate the factorial of a given number using function.](#1-wap-to-calculate-the-factorial-of-a-given-number-using-function)
-    + [2. WAP to calculate a term of Fibonacci series using a recursive function.](#2-wap-to-calculate-a-term-of-fibonacci-series-using-a-recursive-function)
-  * [Structure Questions](#structure-questions)
-    + [1. WAP that reads roll_no, f_name, l_name, and prints the record on the screen.](#1-wap-that-reads-roll-no--f-name--l-name--and-prints-the-record-on-the-screen)
-    + [2. WAP that takes name and marks of 10 students. Display them according to marks in descending order.](#2-wap-that-takes-name-and-marks-of-10-students-display-them-according-to-marks-in-descending-order)
+  - [Basic Questions](#basic-questions)
+    - [1. WAP to find out wether a given number is positive negative or zero.](#1-wap-to-find-out-wether-a-given-number-is-positive-negative-or-zero)
+    - [2. WAP that reads the principal, rate of interest and number of years and find the simple interest and amount.](#2-wap-that-reads-the-principal--rate-of-interest-and-number-of-years-and-find-the-simple-interest-and-amount)
+    - [3. WAP to read the radius of circle and display its area.](#3-wap-to-read-the-radius-of-circle-and-display-its-area)
+    - [4. WAP that reads three numbers and displays the largest among them.](#4-wap-that-reads-three-numbers-and-displays-the-largest-among-them)
+    - [5. WAP to display the name of the day in a week, depending on the number entered through the keyboard using the switch-case statement.](#5-wap-to-display-the-name-of-the-day-in-a-week--depending-on-the-number-entered-through-the-keyboard-using-the-switch-case-statement)
+    - [6. WAP to display all the natural numbers up to 100.](#6-wap-to-display-all-the-natural-numbers-up-to-100)
+    - [7. WAP to display the sum of 'n' terms of 'even' numbers.](#7-wap-to-display-the-sum-of--n--terms-of--even--numbers)
+    - [8. WAP to check given number is palindrome or not.](#8-wap-to-check-given-number-is-palindrome-or-not)
+    - [9. WAP to find the factorial of any given number.](#9-wap-to-find-the-factorial-of-any-given-number)
+    - [10. WAP to find the the product of n natural numbers.](#10-wap-to-find-the-the-product-of-n-natural-numbers)
+  - [Array Questions](#array-questions)
+    - [1. WAP to input 10 numbers and display the largest and smallest number.](#1-wap-to-input-10-numbers-and-display-the-largest-and-smallest-number)
+    - [2. WAP to read the age of 40 students and count the number of students aged between 15 and 22.](#2-wap-to-read-the-age-of-40-students-and-count-the-number-of-students-aged-between-15-and-22)
+    - [3. WAP to input several numbers and arrange them in ascending order.](#3-wap-to-input-several-numbers-and-arrange-them-in-ascending-order)
+    - [4. WAP to input a matrix of size rXc and transpose it.](#4-wap-to-input-a-matrix-of-size-rxc-and-transpose-it)
+    - [5. WAP to input two matrices of size 2X3 and display their sum.](#5-wap-to-input-two-matrices-of-size-2x3-and-display-their-sum)
+  - [String Functions](#string-functions)
+    - [1. WAP to count the number of vowels and consonants in a given text.](#1-wap-to-count-the-number-of-vowels-and-consonants-in-a-given-text)
+    - [2. WAP to check if a given string is a palindrome or not.](#2-wap-to-check-if-a-given-string-is-a-palindrome-or-not)
+    - [3. WAP to input the name of 20 students and arrange them in alphabetical order.](#3-wap-to-input-the-name-of-20-students-and-arrange-them-in-alphabetical-order)
+  - [User Defined Function Questions](#user-defined-function-questions)
+    - [1. WAP to input a number and calculate its reverse using function.](#1-wap-to-input-a-number-and-calculate-its-reverse-using-function)
+    - [2. WAP to find the sum of 'n' integer numbers using the function.](#2-wap-to-find-the-sum-of--n--integer-numbers-using-the-function)
+    - [3. WAP to input a number and check if it is even or odd using the function.](#3-wap-to-input-a-number-and-check-if-it-is-even-or-odd-using-the-function)
+    - [4. WAP using user-defined function to calculate y raise to power x.](#4-wap-using-user-defined-function-to-calculate-y-raise-to-power-x)
+  - [Recursion Questions](#recursion-questions)
+    - [1. WAP to calculate the factorial of a given number using function.](#1-wap-to-calculate-the-factorial-of-a-given-number-using-function)
+    - [2. WAP to calculate a term of Fibonacci series using a recursive function.](#2-wap-to-calculate-a-term-of-fibonacci-series-using-a-recursive-function)
+  - [Structure Questions](#structure-questions)
+    - [1. WAP that reads roll_no, f_name, l_name, and prints the record on the screen.](#1-wap-that-reads-roll-no--f-name--l-name--and-prints-the-record-on-the-screen)
+    - [2. WAP that takes name and marks of 10 students. Display them according to marks in descending order.](#2-wap-that-takes-name-and-marks-of-10-students-display-them-according-to-marks-in-descending-order)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 ## Basic Questions
 
@@ -356,3 +355,43 @@ After the data is entered, the program then uses a nested for loop to sort the d
 Finally, the sorted data is printed to the console using another for loop that iterates through the data array and prints the name and marks in descending order.
 
 Overall, this program demonstrates how to use structures and loops to store and sort data in a simple and efficient manner.
+
+## Pointer Questions
+
+### 1. WAP to check even or odd numbers using pointer.
+
+This is a C program that checks if a given number is even or odd using pointers. Here's how it works:
+
+- The program starts by declaring an integer variable a, and a pointer variable pt which will point to the address of a.
+
+- The user is prompted to enter a number, which is then read and stored in a using the scanf() function.
+
+- The check() function is called, passing in the address of a as an argument.
+
+- Inside the check() function, the value of a is accessed using the dereferencing operator \*, and checked if it is even or odd using the modulo operator %.
+
+- If the number is even, the function prints "Even" to the console. If the number is odd, the function prints "Odd" to the console.
+
+- Finally, the check() function returns 0, and control is returned to the main() function.
+
+- The program terminates by returning 0 from the main() function.
+
+So essentially, the program is using a pointer to pass the address of the integer variable to the check() function, so that it can access and manipulate the value of the variable directly. This allows the function to check whether the number is even or odd without needing to return a value.
+
+### 2. WAP to swap two numbers using pointer.
+
+This program swaps the values of two numbers entered by the user using pointers.
+
+Here's how it works:
+
+- The program declares two integer variables a and b and two integer pointer variables ptr1 and ptr2.
+- The user is prompted to enter two integers which are stored in a and b using scanf.
+- The program prints the original values of a and b.
+- The function swap is called, passing in ptr1 and ptr2 as arguments.
+- In the swap function, a temporary integer variable temp is declared and assigned the value of the integer pointed to by ptr1.
+- The integer pointed to by ptr1 is assigned the value of the integer pointed to by ptr2.
+- The integer pointed to by ptr2 is assigned the value of the integer stored in temp.
+- The swap function returns.
+- The program prints the new values of a and b.
+
+The swap function works by using pointer arithmetic to access the values of the integers pointed to by ptr1 and ptr2. The values are swapped using a temporary variable to avoid losing any data during the swap. The original variables a and b are modified indirectly by the function through their pointers.
