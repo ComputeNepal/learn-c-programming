@@ -2,7 +2,7 @@
 
 This repo is a collection of multiple C programming problems and their solutions. Before referring to this repository, it is recommended to know about the basics of programming like what are variables, loops, data types, functions, etc.
 
-Make sure to star the repository if you find it useful.
+Make sure to star the repository if you find it useful. And contributions to the repository are welcome.
 
 - [Beginners C programming Problems](#beginners-c-programming-problems)
   - [Basic Questions](#basic-questions)
@@ -42,6 +42,8 @@ Make sure to star the repository if you find it useful.
     - [2. WAP to swap two numbers using pointer.](#2-wap-to-swap-two-numbers-using-pointer)
   - [File Handling Questions](#file-handling-questions)
     - [1. WAP to input name, roll no, marks of n students and store them in file/ read from file also.](#1-wap-to-input-name--roll-no--marks-of-n-students-and-store-them-in-file--read-from-file-also)
+    - [2. WAP to rename and delete a file using rename and remove command.](#2-wap-to-rename-and-delete-a-file-using-rename-and-remove-command)
+    - [3. WAP to open a new file and read roll-no, name, address and phone number of students until the user says "no", after reading the data, write it to the file then display the content of the file.](#3-wap-to-open-a-new-file-and-read-roll-no--name--address-and-phone-number-of-students-until-the-user-says--no---after-reading-the-data--write-it-to-the-file-then-display-the-content-of-the-file)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -418,3 +420,25 @@ After writing the data to the file, the program prints the header for the data t
 The program then opens the file again, this time in read mode, and reads the data from the file using a while loop and the fscanf function. The data is then displayed on the console using printf function.
 
 Finally, the program closes the file using the fclose function and returns 0 to exit.
+
+### 2. WAP to rename and delete a file using rename and remove command.
+
+This is a C program that demonstrates how to rename and delete a file using the rename() and remove() functions.
+
+The rename() function is used to change the name of a file from its original name to a new name. In this program, the function is used to rename the file "data.txt" to "new.txt". The syntax of the function is int rename(const char *oldname, const char *newname);, where oldname is the original name of the file, and newname is the new name of the file. The function returns 0 on success and a non-zero value on failure.
+
+The remove() function is used to delete a file from the file system. In this program, the function is used to delete the file "new.txt". The syntax of the function is int remove(const char \*filename);, where filename is the name of the file to be deleted. The function returns 0 on success and a non-zero value on failure.
+
+When the program is executed, it renames the file "data.txt" to "new.txt" and prints the message "Renamed data.txt to new.txt". Then, it deletes the file "new.txt" and prints the message "Removed data.txt".
+
+### 3. WAP to open a new file and read roll-no, name, address and phone number of students until the user says "no", after reading the data, write it to the file then display the content of the file.
+
+This program allows the user to input information about students such as their name, roll number, address, and phone number. The information is read from the user until the user inputs "no". Then, the information is written to a file named "data.txt". After the information is written to the file, the content of the file is displayed.
+
+The program starts by including the standard input/output library (stdio.h). The main function is defined, and four variables are declared - name, address, roll, and phone.
+
+Then, a file pointer variable fp is created and is opened in "append" mode with the file name "data.txt". The user is prompted to enter the details of the student, and their input is read using scanf. Then, this data is written to the file using fprintf. The program checks whether the user wants to continue adding students by asking the user for input and storing the input in the variable "ch". This continues in a loop until the user inputs "no".
+
+After the loop finishes, the file is closed using fclose. Then, the file is opened again, this time in "read" mode. The content of the file is read using fscanf in a loop until the end of the file is reached (indicated by EOF). The content is then printed to the console using printf.
+
+Finally, the program ends by returning 0.
