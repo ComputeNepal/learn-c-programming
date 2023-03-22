@@ -35,7 +35,7 @@ int main(){
   printf("-----------------------------------\n\n");   
   printf("BILL NO:\t843948394\n");
   printf("BILL DATE:\t2079/12/12\n");
-  printf("BRANCH:\t\tDAMAK\n");
+  printf("BRANCH:\t\tDAMAK\n");//you can write your own branch
   printf("-----------------------------------\n");
   printf("SC NO:\t\t309.11.012A\n");
   printf("BILL NO:\t843948394\n");
