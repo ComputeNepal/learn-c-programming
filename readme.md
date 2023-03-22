@@ -45,7 +45,7 @@ Make sure to star the repository if you find it useful. And contributions to the
     - [1. WAP to input name, roll no, marks of n students and store them in file/ read from file also.](#1-wap-to-input-name--roll-no--marks-of-n-students-and-store-them-in-file--read-from-file-also)
     - [2. WAP to rename and delete a file using rename and remove command.](#2-wap-to-rename-and-delete-a-file-using-rename-and-remove-command)
     - [3. WAP to open a new file and read roll-no, name, address and phone number of students until the user says "no", after reading the data, write it to the file then display the content of the file.](#3-wap-to-open-a-new-file-and-read-roll-no--name--address-and-phone-number-of-students-until-the-user-says--no---after-reading-the-data--write-it-to-the-file-then-display-the-content-of-the-file)
-    - [4. WAP to create/open a new file and store roll-no, name, address and phone number of specified number of students](#4-WAP-to-create-open-a-new-file-and-store-roll-no--name--address-and-phone-number-of-specified-number-of-students)
+    - [4. WAP to create/open a new file and store roll-no, name, address and phone number of specified number of students](#4-wap-to-create-open-a-new-file-and-store-roll-no-name-address-and-phone-number-of-specified-number-of-students)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
