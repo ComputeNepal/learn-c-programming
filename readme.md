@@ -34,6 +34,7 @@ Make sure to star the repository if you find it useful. And contributions to the
   - [Recursion Questions](#recursion-questions)
     - [1. WAP to calculate the factorial of a given number using function.](#1-wap-to-calculate-the-factorial-of-a-given-number-using-function)
     - [2. WAP to calculate a term of Fibonacci series using a recursive function.](#2-wap-to-calculate-a-term-of-fibonacci-series-using-a-recursive-function)
+    - [3. WAP to calculate a term of Fibonacci series using a recursive function and static keyword.](#2-wap-to-calculate-a-term-of-fibonacci-series-using-a-recursive-function-and-static-keyword)
   - [Structure Questions](#structure-questions)
     - [1. WAP that reads roll_no, f_name, l_name, and prints the record on the screen.](#1-wap-that-reads-roll-no--f-name--l-name--and-prints-the-record-on-the-screen)
     - [2. WAP that takes name and marks of 10 students. Display them according to marks in descending order.](#2-wap-that-takes-name-and-marks-of-10-students-display-them-according-to-marks-in-descending-order)
@@ -336,6 +337,18 @@ The 'fibonacci' function is defined as follows:
 - Otherwise, it calculates the nth term by recursively calling the 'fibonacci' function with n-1 and n-2 as arguments, and returning the sum of the two results.
 
 The program then prints out the value returned by the 'fibonacci' function, which is the nth term of the Fibonacci series.
+
+### 3. WAP to calculate a term of Fibonacci series using a recursive function and static keyword.
+
+This program prints out the fibonacci series , for the (specified) number of times.
+
+By taking and input from an user and passing it to a user-defined-function, we are able to create such series.
+
+What is *static* keyword? What does it do? [SEE THIS](https://www.javatpoint.com/static-in-c)
+
+#### OUTPUT
+![recursion_q3](outputs/recursion_q3.png)
+
 
 ## Structure Questions
 
