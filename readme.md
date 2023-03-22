@@ -45,6 +45,7 @@ Make sure to star the repository if you find it useful. And contributions to the
     - [1. WAP to input name, roll no, marks of n students and store them in file/ read from file also.](#1-wap-to-input-name--roll-no--marks-of-n-students-and-store-them-in-file--read-from-file-also)
     - [2. WAP to rename and delete a file using rename and remove command.](#2-wap-to-rename-and-delete-a-file-using-rename-and-remove-command)
     - [3. WAP to open a new file and read roll-no, name, address and phone number of students until the user says "no", after reading the data, write it to the file then display the content of the file.](#3-wap-to-open-a-new-file-and-read-roll-no--name--address-and-phone-number-of-students-until-the-user-says--no---after-reading-the-data--write-it-to-the-file-then-display-the-content-of-the-file)
+    - [4. WAP to create/open a new file and store roll-no, name, address and phone number of specified number of students](#4-wap-to-create-open-a-new-file-and-store-roll-no-name-address-and-phone-number-of-specified-number-of-students)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -455,3 +456,17 @@ Then, a file pointer variable fp is created and is opened in "append" mode with 
 After the loop finishes, the file is closed using fclose. Then, the file is opened again, this time in "read" mode. The content of the file is read using fscanf in a loop until the end of the file is reached (indicated by EOF). The content is then printed to the console using printf.
 
 Finally, the program ends by returning 0.
+
+### 4. WAP to open a new file and store roll-no, name, address and phone number of specified number of students.
+
+This program asks the user for the number of students whose details should be entered.
+
+*fwrite, fread* funtions are used because it will auto format the details when writing to a file. 
+
+A quick runthrough of the program.
+
+  - asks for number of students
+  - asks for details of the students
+  - writes the details of the student in the file
+  - opens the file and prints out it's content
+    
