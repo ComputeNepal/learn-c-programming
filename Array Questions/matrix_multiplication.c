@@ -19,8 +19,8 @@ int main(int argc, char *argv[]) {
     exit(EXIT_FAILURE);
   } else {
     if (column1 != row2) {
-      // check to see if the number of rows of first matrix is equal to the
-      // number of columns of second matrix;
+      // check to see if the number of column of first matrix is equal to the
+      // number of rows of second matrix;
       printf("Number of column of first matrix must be equal the row of second "
              "matrix.\n");
       exit(EXIT_FAILURE);
