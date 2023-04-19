@@ -83,11 +83,9 @@ For example, if the user enters 10, the program will output "Positive". If the
 user enters -5, the program will output "Negative". And if the user enters 0,
 the program will output "Zero".
 
-*output* 
+_output_
 
-![output of basic questions q1](outputs/basic_positive_negative.png) 
----
-
+## ![output of basic questions q1](outputs/basic_positive_negative.png)
 
 ### 2. WAP that reads the principal, rate of interest and number of years and find the simple interest and amount.
 
@@ -120,6 +118,10 @@ will output "The simple interest is: 100.00, and amount is 1100.00." This means
 that the simple interest is 100.00 and the total amount after 2 years is
 1100.00.
 
+#### Output
+
+![output_of_basic_simple_interest](outputs/basic_simple_interest.png)
+
 ### 3. WAP to read the radius of circle and display its area.
 
 This is a C program to calculate the area of a circle. It takes the radius of
@@ -133,6 +135,10 @@ using the printf() function with the appropriate format specifier %0.2f to
 display the output up to 2 decimal places.
 
 Finally, the program returns 0 indicating successful execution of the program.
+
+#### Output
+
+![output_of_basic_area_of_circle](outputs/basic_area_of_circle.png)
 
 ### 4. WAP that reads three numbers and displays the largest among them.
 
@@ -265,6 +271,10 @@ Here's how it works:
 4. After the loop is complete, the program prints the result using printf.
 
 5. The main function returns 0, indicating successful execution.
+
+#### Output
+
+![output_of_basic_product_of_n_numbers](outputs/basic_product_of_n_numbers.png)
 
 ## Array Questions
 
@@ -473,6 +483,10 @@ and outputs the returned value as the reversed number.
 
 Overall, this program demonstrates the use of a function to perform a specific
 task, in this case, reversing a given number.
+
+#### Output
+
+![output_of_user_defined_reverse_of_number](outputs/user_defined_reverse_of_number.png)
 
 ### 2. WAP to find the sum of 'n' integer numbers using the function.
 
