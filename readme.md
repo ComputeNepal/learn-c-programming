@@ -136,6 +136,10 @@ display the output up to 2 decimal places.
 
 Finally, the program returns 0 indicating successful execution of the program.
 
+#### Output
+
+![output_of_basic_area_of_circle](outputs/basic_area_of_circle.png)
+
 ### 4. WAP that reads three numbers and displays the largest among them.
 
 This is a C program that reads three integers from the user and then finds the
