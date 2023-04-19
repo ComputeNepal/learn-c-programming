@@ -1,5 +1,7 @@
 # Beginners C programming Problems
 
+![Learn C Programming](https://repository-images.githubusercontent.com/615587446/9a0d7982-bdb2-4918-8570-ebfff27778ad)
+
 This repo is a collection of multiple C programming problems and their
 solutions. Before referring to this repository, it is recommended to know about
 the basics of programming like what are variables, loops, data types, functions,
