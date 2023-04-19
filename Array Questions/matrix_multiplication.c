@@ -69,7 +69,7 @@ int mult_matrix(int row1, int column1, int row2, int column2) {
   }
 
   // muliplied matrix
-  // printf("Result of the product of those two matrixes\n");
+  printf("Result of the product of those two matrixes\n");
   for (int i = 0; i < row1; i++) {
     for (int j = 0; j < column2; j++) {
       printf("%d\t", result[i][j]);
