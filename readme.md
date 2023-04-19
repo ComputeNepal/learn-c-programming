@@ -484,6 +484,10 @@ and outputs the returned value as the reversed number.
 Overall, this program demonstrates the use of a function to perform a specific
 task, in this case, reversing a given number.
 
+#### Output
+
+![output_of_user_defined_reverse_of_number](outputs/user_defined_reverse_of_number.png)
+
 ### 2. WAP to find the sum of 'n' integer numbers using the function.
 
 This program calculates the sum of 'n' integer numbers, where 'n' is the input
