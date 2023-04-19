@@ -19,8 +19,8 @@ int main(int argc, char *argv[]) {
     exit(EXIT_FAILURE);
   } else {
     if (column1 != row2) {
-      // check to see if the number of rows of first matrix is equal to the
-      // number of columns of second matrix;
+      // check to see if the number of column of first matrix is equal to the
+      // number of rows of second matrix;
       printf("Number of column of first matrix must be equal the row of second "
              "matrix.\n");
       exit(EXIT_FAILURE);
@@ -69,7 +69,7 @@ int mult_matrix(int row1, int column1, int row2, int column2) {
   }
 
   // muliplied matrix
-  // printf("Result of the product of those two matrixes\n");
+  printf("Result of the product of those two matrixes\n");
   for (int i = 0; i < row1; i++) {
     for (int j = 0; j < column2; j++) {
       printf("%d\t", result[i][j]);
