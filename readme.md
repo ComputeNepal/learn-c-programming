@@ -83,6 +83,12 @@ For example, if the user enters 10, the program will output "Positive". If the
 user enters -5, the program will output "Negative". And if the user enters 0,
 the program will output "Zero".
 
+*output* 
+
+![output of basic questions q1](outputs/basic_positive_negative.png) 
+---
+
+
 ### 2. WAP that reads the principal, rate of interest and number of years and find the simple interest and amount.
 
 This is a simple program that calculates the simple interest and amount based on
@@ -574,7 +580,7 @@ What is _static_ keyword? What does it do?
 
 #### OUTPUT
 
-![recursion_q3](outputs/recursion_q3.png)
+![recursion_q3](outputs/recursion_fibonacci_static.png)
 
 ## Structure Questions
 

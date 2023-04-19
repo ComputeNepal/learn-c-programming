@@ -8,8 +8,8 @@ int main(){
     if(a == 0)
         printf("Zero\n");
     else if (a > 0)
-        printf("Positive");
+        printf("Positive\n");
     else
-        printf("Negative");
+        printf("Negative\n");
     return 0;
 }
