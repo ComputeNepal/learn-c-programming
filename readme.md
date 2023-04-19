@@ -85,7 +85,7 @@ the program will output "Zero".
 
 *output* 
 
-![output of basic questions q1](outputs/basic_q1.png) 
+![output of basic questions q1](outputs/basic_positive_negative.png) 
 ---
 
 
@@ -580,7 +580,7 @@ What is _static_ keyword? What does it do?
 
 #### OUTPUT
 
-![recursion_q3](outputs/recursion_q3.png)
+![recursion_q3](outputs/recursion_fibonacci_static.png)
 
 ## Structure Questions
 
