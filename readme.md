@@ -272,6 +272,10 @@ Here's how it works:
 
 5. The main function returns 0, indicating successful execution.
 
+#### Output
+
+![output_of_basic_product_of_n_numbers](outputs/basic_product_of_n_numbers.png)
+
 ## Array Questions
 
 ### 1. WAP to input 10 numbers and display the largest and smallest number.
