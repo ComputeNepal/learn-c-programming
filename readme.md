@@ -83,11 +83,9 @@ For example, if the user enters 10, the program will output "Positive". If the
 user enters -5, the program will output "Negative". And if the user enters 0,
 the program will output "Zero".
 
-*output* 
+_output_
 
-![output of basic questions q1](outputs/basic_positive_negative.png) 
----
-
+## ![output of basic questions q1](outputs/basic_positive_negative.png)
 
 ### 2. WAP that reads the principal, rate of interest and number of years and find the simple interest and amount.
 
@@ -119,6 +117,10 @@ For example, if the user enters principal=1000, rate=5, and time=2, the program
 will output "The simple interest is: 100.00, and amount is 1100.00." This means
 that the simple interest is 100.00 and the total amount after 2 years is
 1100.00.
+
+#### Output
+
+![output_of_basic_simple_interest](outputs/basic_simple_interest.png)
 
 ### 3. WAP to read the radius of circle and display its area.
 
