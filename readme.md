@@ -559,6 +559,10 @@ its factorial. If n is not equal to 1, factorial() multiplies n by the result of
 calling factorial(n-1). This process continues until n is equal to 1. At that
 point, the function returns 1, which is the base case of the recursion.
 
+_output_
+
+![recursion questions q1](outputs/recursion_factorial.png) 
+
 ### 2. WAP to calculate a term of Fibonacci series using a recursive function.
 
 This program calculates the nth term in the Fibonacci series using a recursive
