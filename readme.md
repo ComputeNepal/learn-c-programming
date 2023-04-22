@@ -23,7 +23,7 @@ repository are welcome.
 
 | Question Type           | Links                                                               |
 | ----------------------- | ------------------------------------------------------------------- |
-| Basic Questions         | [View Questions](./Basic%20Questions/readme.md)                     |
+| Basic Questions         | [View Questions](./Basic%20Questions)                     |
 | Array Questions         | [View Questions](./Array%20Questions/readme.md)                     |
 | String Functions        | [View Questions](./String%20Functions/readme.md)                    |
 | User Defined Functions  | [View Questions](./User%20Defined%20Function%20Questions/readme.md) |
