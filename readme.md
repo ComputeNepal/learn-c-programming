@@ -24,13 +24,13 @@ repository are welcome.
 | Question Type           | Links                                                               |
 | ----------------------- | ------------------------------------------------------------------- |
 | Basic Questions         | [View Questions](./Basic%20Questions)                     |
-| Array Questions         | [View Questions](./Array%20Questions/readme.md)                     |
-| String Functions        | [View Questions](./String%20Functions/readme.md)                    |
-| User Defined Functions  | [View Questions](./User%20Defined%20Function%20Questions/readme.md) |
-| Recursion Questions     | [View Questions](./Recursion%20Questions/readme.md)                 |
-| Pointer Questions       | [View Questions](./Pointer%20Questions/readme.md)                   |
-| Structure Questions     | [View Questions](./Structure%20Questions/readme.md)                 |
-| File Handling Questions | [View Questions](./File%20Handling%20Questions/readme.md)           |
+| Array Questions         | [View Questions](./Array%20Questions)                     |
+| String Functions        | [View Questions](./String%20Functions)                    |
+| User Defined Functions  | [View Questions](./User%20Defined%20Function%20Questions) |
+| Recursion Questions     | [View Questions](./Recursion%20Questions)                 |
+| Pointer Questions       | [View Questions](./Pointer%20Questions)                   |
+| Structure Questions     | [View Questions](./Structure%20Questions)                 |
+| File Handling Questions | [View Questions](./File%20Handling%20Questions)           |
 
 <!-- Add new category to the table -->
 
