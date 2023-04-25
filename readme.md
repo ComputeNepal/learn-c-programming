@@ -34,6 +34,11 @@ repository are welcome.
 
 <!-- Add new category to the table -->
 
+## Contributors
+<a href="https://github.com/ComputeNepal/learn-c-programming/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ComputeNepal/learn-c-programming" />
+</a>
+
 ## License
 
 Released under [MIT](/LICENSE) by [@ComputeNepal](https://github.com/ComputeNepal).
