@@ -84,7 +84,7 @@ For example, if the user input is 40 then the bill is generated for 40 units.
 
 _output_
 
-![output of Miscellaneous-Electricity bill generator](../outputs/Electricityy_bill_input.png)
+![output of Miscellaneous-Electricity bill generator](../outputs/Miscellaneous_Electricity_bill_output1.png)
 
-(![output of Miscellaneous-Electricity bill generator](../outputs/Electricity_bill_output.png)
+(![output of Miscellaneous-Electricity bill generator](../outputs/Miscellaneous_Electricity_bill_output2.png)
 
