@@ -461,7 +461,7 @@ the flag is assigned 1 else the flag is assigned to 0. Finally the program check
 the value of flag. I the flag is 1 the it prints the integer is prime while it 
 prints the integer is not prime if the flag is 0.
 
-For example, the input is seven then this program prints "7 is prime".
+For example, the input is seven then this program prints "7 is a prime number".
 
 _output_
 
