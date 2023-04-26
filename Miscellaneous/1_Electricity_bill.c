@@ -27,7 +27,7 @@ int main(){
   else if(units>250){
       price=(20*4+30*7.3+100*8.6+100*9.5)+((units-250)*12.5);
   }
-  //just update whenever required
+
   //you can automate the bill no, date and sc no for advancement
   printf("~~~NEPAL ELECTRICITY AUTHORITY~~~\n");
   printf("-----------------------------------\n");
@@ -41,5 +41,7 @@ int main(){
   printf("BILL NO:\t843948394\n");
   printf("TOTAL UNITS:\t%d\n",units);
   printf("TOTAL AMOUNT:\tRS.%.3f\n",price);
+  printf("-----------------------------------\n");
+  printf("-----------------------------------\n");
   return 0;
 }
