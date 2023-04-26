@@ -31,7 +31,7 @@ repository are welcome.
 | Pointer Questions       | [View Questions](./Pointer%20Questions)                   |
 | Structure Questions     | [View Questions](./Structure%20Questions)                 |
 | File Handling Questions | [View Questions](./File%20Handling%20Questions)           |
-| Miscellaneous            | [View Questions](./Miscellaneous/)
+| Miscellaneous            | [View Questions](./Miscellaneous/) |
 <!-- Add new category to the table -->
 
 ## Contributors
