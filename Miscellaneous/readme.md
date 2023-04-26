@@ -86,5 +86,5 @@ _output_
 
 ![output of Miscellaneous-Electricity bill generator](../outputs/Miscellaneous_Electricity_bill_output1.png)
 
-(![output of Miscellaneous-Electricity bill generator](../outputs/Miscellaneous_Electricity_bill_output2.png)
+![output of Miscellaneous-Electricity bill generator](../outputs/Miscellaneous_Electricity_bill_output2.png)
 
