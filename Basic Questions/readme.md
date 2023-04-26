@@ -412,7 +412,64 @@ Finally, the program prints the output, which is the value of p.
 
 ![output_of_basic_product_of_n_numbers](../outputs/basic_product_of_n_numbers.png)
 
+## 10. WAP to check whether the given number is prime or composite.
+
+### Program
+
+```c
+//WAP to check whether the given number is prime or composite.
+
+#include <stdio.h>
+
+int main() {
+
+  int n, i, flag = 0;
+  printf("Enter a positive integer: ");
+  scanf("%d", &n);
+
+  // 0 and 1 are not prime numbers
+  // change flag to 1 for non-prime number
+  if (n == 0 || n == 1)
+    flag = 1;
+
+  for (i = 2; i <= n / 2; ++i) {
+
+    // if n is divisible by i, then n is not prime
+    // change flag to 1 for non-prime number
+    if (n % i == 0) {
+      flag = 1;
+      break;
+    }
+  }
+
+  // flag is 0 for prime numbers
+  if (flag == 0)
+    printf("%d is a prime number.", n);
+  else
+    printf("%d is not a prime number.", n);
+
+  return 0;
+}
+```
+This C program checks whether the given number is prime or composite.
+
+This program takes an integer as input from the user. 
+If the number is 0 or 1 then the flag is assigned 1.
+Then i is initialized as 2 and then i assigned as the numbers in range (2,n/2).
+If the input goes through a loop where if the integer is divisible by 'i' then 
+the flag is assigned 1 else the flag is assigned to 0. Finally the program checks
+the value of flag. I the flag is 1 the it prints the integer is prime while it 
+prints the integer is not prime if the flag is 0.
+
+For example, the input is seven then this program prints "7 is a prime number".
+
+_output_
+
+![output of basic questions q1](../outputs/basic_prime.png)
+
 <!-- Add new question above this comment -->
+
+
 
 ## License
 
