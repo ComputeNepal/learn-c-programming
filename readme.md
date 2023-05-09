@@ -40,6 +40,12 @@ repository are welcome.
   <img src="https://contrib.rocks/image?repo=ComputeNepal/learn-c-programming" />
 </a>
 
+## Forkers
+[![Forkers repo roster for @ComputeNepal/learn-c-programming](https://reporoster.com/forks/ComputeNepal/learn-c-programming)](https://github.com/ComputeNepal/learn-c-programming/network/members)
+
+## Stargazers
+[![Stargazers repo roster for @ComputeNepal/learn-c-programming](https://reporoster.com/stars/ComputeNepal/learn-c-programming)](https://github.com/ComputeNepal/learn-c-programming/stargazers)
+
 ## License
 
 Released under [MIT](/LICENSE) by [@ComputeNepal](https://github.com/ComputeNepal).
