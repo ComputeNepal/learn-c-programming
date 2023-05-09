@@ -88,3 +88,37 @@ _output_
 
 ![output of Miscellaneous-Electricity bill generator](../outputs/Miscellaneous_Electricity_bill_output2.png)
 
+## 2. WAP to create guess the number game.
+
+### Program
+
+```c
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int main(){
+    int number, guess, gNo = 1;
+    srand(time(0));
+    //generation of random number between 0 and 100
+    number = rand() % 100 + 1;
+    do{
+        printf("Enter the number between 0 and 100: ");
+        scanf("%d", &guess);
+        if(guess > number){
+            printf("Try Smaller number\n");
+        }else if (guess < number){
+            printf("Try Greater number\n");
+        }else{
+            printf("Guesses: %d", gNo);
+        }
+        gNo++;
+    }while(guess != number);
+    return 0;
+}
+```
+
+This is a basic Game in C in which you can guess a number between 0 and 100.
+
+- Computer generates a random number between 0 and 100
+- You enter a number between 0 and 100
+- If the number is smaller than generated, the computer gives you a hint and vice versa.
